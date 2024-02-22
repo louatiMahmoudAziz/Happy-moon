@@ -1,0 +1,66 @@
+/* main-page.component.css */
+
+/* Style for the container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: cursive; /* Set font family to fantasy */
+  }
+  
+  /* Style for the title "Welcome to Happy Moon!" */
+  h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the message "How are you feeling today?" */
+  .message {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the mood boxes container */
+  .mood-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for each mood box */
+  .mood-box {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the mood icon */
+  .mood-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the mood name */
+  .mood-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Style for the mood message */
+  .mood-message {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Style for the mood link */
+  .mood-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent */
+  }
+  
