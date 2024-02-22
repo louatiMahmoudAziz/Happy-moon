@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-page',
@@ -13,4 +14,10 @@ export class MainPageComponent {
     { name: 'Confused', icon: 'https://static.thenounproject.com/png/1938477-200.png', message: "I'm not sure how I feel" },
     { name: 'Energetic', icon: 'https://cdn-icons-png.flaticon.com/512/3208/3208106.png', message: "I'm ready to take on the world" }
   ];
+
+  constructor(private router: Router) {}
+
+  navigateToPopup(mood: string) {
+    this.router.navigate([mood.toLowerCase()]);
+  }
 }
