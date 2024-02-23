@@ -1,61 +1,208 @@
-<!-- calm-popup.component.html -->
-
-<div class="calm-popup">
-  <button class="exit-button" ><a href="#movies">X</a></button>
-    <nav>
-      <h1>Calm Moments</h1>
-      <ul>
-        <li><a href="#movies">Movies</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#activities">Activities</a></li>
-      </ul>
-    </nav>
-    <div class="recommendations">
-      <section id="movies">
-        <h2>Movies Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Lost_in_Translation_poster.jpg" alt="Movie Poster">
-          <div class="details">
-            <h3>Lost in Translation</h3>
-            <p>A romantic comedy-drama film written and directed by Sofia Coppola, starring Bill Murray and Scarlett Johansson.</p>
-          </div>
-        </div>
-        <!-- Add more movie recommendations -->
-      </section>
+<!-- energetic-popup.component.html -->
+<div class="backgroundImage">
+  <div class="energetic-popup">
+      <nav class="navMenu">
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Books</a>
+        <a href="#">Music</a>
+      </nav>
+      <div class="recommendations">
+        <section id="movies" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Movie Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://assets.mubicdn.net/images/artworks/330717/images-original.png?1625234758" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>My Neighbor Totoro (1988)</h2>
+                <p>
+                  This Japanese animated film by Studio Ghibli is a peaceful and heartwarming story about two sisters who move to the countryside and befriend a friendly forest spirit called Totoro.
+                </p>
+                <a href="https://www.imdb.com/title/tt0096283/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://budapest-travel-tips.com/wp-content/uploads/2019/05/Grand_Budapest_Hotel_film.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Grand Budapest Hotel (2014)</h2>
+                <p>
+                  This whimsical comedy by Wes Anderson is visually stunning and features a charming cast of characters. The story follows the concierge of a famous European hotel and his adventures.
+                </p>
+                <a href="https://www.imdb.com/title/tt2278388/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://cspaceprojects.com/wp-content/uploads/2023/08/koyaanisqatsi-promo-pic-wKQ9SL.tmp_.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Koyaanisqatsi (1982)</h2>
+                <p>
+                  This experimental film by Godfrey Reggio is a visually stunning and meditative journey through the American Southwest, set to a minimalist score by Philip Glass.
+                </p>
+                <a href="https://www.imdb.com/title/tt1232829/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
   
-      <section id="books">
-        <h2>Books Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://images.epagine.fr/912/9780241283912_1_75.jpg" alt="Book Cover">
-          <div class="details">
-            <h3>The Little Book of Hygge</h3>
-            <p>A book by Meik Wiking that explores the Danish concept of hygge, emphasizing coziness and contentment.</p>
-          </div>
-        </div>
-        <!-- Add more book recommendations -->
-      </section>
+        <hr style="width: 50%; margin: 40px auto"/>
   
-      <section id="music">
-        <h2>Music Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB3SCSwlOknq7KuOL15L0HCL2e_4QDEEgC_Q&usqp=CAU" alt="Album Cover">
-          <div class="details">
-            <h3>Yiruma - River Flows in You</h3>
-            <p>A piano piece composed and performed by South Korean pianist Yiruma, known for its calming melody.</p>
-          </div>
-        </div>
-        <!-- Add more music recommendations -->
-      </section>
+        <section id="books" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Books Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://www.eap-magazin.de/medium/161023-The-Little-Prince-1.png?m=20174&w=990&h=744&g=0" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Little Prince (1943) by Antoine de Saint-Exupéry</h2>
+                <p>
+                  This short but profound novella tells the story of a pilot who crashes in the desert and meets a young prince from another planet. It's a beautiful and thought-provoking exploration of friendship, love, and loss.
+                </p>
+                <a href="https://www.ebay.com/itm/203496597031" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://wpcdn.web.wsu.edu/news/uploads/sites/2797/2022/04/Braiding-Sweetgrass-book-cover.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Braiding Sweetgrass by Robin Wall Kimmerer</h2>
+                <p>
+                  This book explores the relationship between humans and the natural world through the lens of indigenous knowledge and science. It's a beautiful and insightful read that will leave you feeling more connected to the earth.
+                </p>
+                <a href="https://milkweed.org/book/braiding-sweetgrass" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*VeYzMC5BOLScuUkZ8kuW3A.png" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Tao Te Ching by Lao Tzu</h2>
+                <p>
+                  This ancient Chinese text is a collection of poems and proverbs about the way of life. It's a timeless classic that offers wisdom on how to live a peaceful and harmonious life.
+                </p>
+                <a href="https://www.penguin.com.au/books/the-thursday-murder-club-9780241988268" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
   
-      <section id="activities">
-        <h2>Activities Recommendations</h2>
-        <div class="activity">
-          <h3>Yoga and Meditation</h3>
-          <p>Practice yoga and meditation to relax your mind and body. Find a quiet space, focus on your breath, and let go of stress.</p>
-        </div>
-        <!-- Add more activity recommendations -->
-      </section>
+    <hr style="width: 50%; margin: 40px auto"/>
+        
+    <section id="music" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Music Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://i.ytimg.com/vi/qYnA9wWFHLI/maxresdefault.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Weightless by Marconi Union</h2>
+                <p>
+                  This piece of music has been scientifically proven to reduce anxiety and stress. It's a slow and calming instrumental track with gentle piano melodies and ambient soundscapes.
+                </p>
+                <a href="https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://www.pianio.blog/storage/62/32/articles-12.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Gymnopédie No. 1 by Erik Satie</h2>
+                <p>
+                  This minimalist piano piece is known for its peaceful and serene atmosphere. It's a beautiful and calming piece of music that is perfect for relaxation.
+                </p>
+                <a href="https://open.spotify.com/track/1nII0mQxOzKiaPoWyTiOXO?si=dffb4e700d274c48" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://sparksgallery.com/wp-content/uploads/2019/08/Evgola-Air-on-a-G-string-scaled.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Air on the G String by Johann Sebastian Bach</h2>
+                <p>
+                  This classical piece is a popular choice for relaxation and meditation. It's a beautiful and uplifting piece of music that can help to calm the mind and body.
+                </p>
+                <a href="https://open.spotify.com/album/3J9Y5JK4ccManV147HOvBX" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
     </div>
   </div>
-  

@@ -1,61 +1,207 @@
-<!-- sad-popup.component.html -->
-
-<div class="sad-popup">
-  <button class="exit-button" ><a href="#movies">X</a></button>
-    <nav>
-      <h1>Sad Moments</h1>
-      <ul>
-        <li><a href="#movies">Movies</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#activities">Activities</a></li>
-      </ul>
-    </nav>
-    <div class="recommendations">
-      <section id="movies">
-        <h2>Movies Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://miro.medium.com/v2/resize:fit:548/1*Y8vXN1mJeEHyXWJtFICjiQ.jpeg" alt="Movie Poster">
-          <div class="details">
-            <h3>The Pursuit of Happyness</h3>
-            <p>A heartwarming film starring Will Smith, based on the true story of Chris Gardner's struggles with homelessness while raising his son.</p>
-          </div>
-        </div>
-        <!-- Add more movie recommendations -->
-      </section>
+<!-- energetic-popup.component.html -->
+<div class="backgroundImage">
+  <div class="energetic-popup">
+      <nav class="navMenu">
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Books</a>
+        <a href="#">Music</a>
+      </nav>
+      <div class="recommendations">
+        <section id="movies" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Movie Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://i.guim.co.uk/img/media/c9724099ae63347116a702312830beaca12b277d/0_30_3504_2104/500.jpg?quality=85&auto=format&fit=max&s=f58eb506b385abffd07b8b731005f956" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Schindler's List (1993)</h2>
+                <p>
+                  This historical drama tells the true story of Oskar Schindler, a German businessman who saved the lives of over 1,100 Jews during the Holocaust. It's a powerful and moving film that will stay with you long after you've seen it.
+                </p>
+                <a href="https://www.imdb.com/title/tt0108052/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://newslinemagazine.com/wp-content/uploads/2017/02/manchester-by-the-sea-quad-poster.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Manchester by the Sea (2016)</h2>
+                <p>
+                  This drama tells the story of a man who returns to his hometown after his brother's death. It's a deeply moving film about grief, loss, and the power of forgiveness.
+                </p>
+                <a href="https://www.imdb.com/title/tt4034228/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://appellcenter.org/wp-content/uploads/Eternal-Sunshine.jpeg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Eternal Sunshine of the Spotless Mind (2004)</h2>
+                <p>
+                  This romantic science fiction film tells the story of a couple who undergo a procedure to erase their memories of each other. It's a beautiful and thought-provoking film about love, loss, and the power of memory.
+                </p>
+                <a href="https://www.imdb.com/title/tt0338013/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
   
-      <section id="books">
-        <h2>Books Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://musicart.xboxlive.com/7/b70f0600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080" alt="Book Cover">
-          <div class="details">
-            <h3>The Fault in Our Stars</h3>
-            <p>A novel by John Green that tells the story of Hazel Grace Lancaster, a sixteen-year-old cancer patient, who falls in love with Augustus Waters, a similarly afflicted teen from her cancer support group.</p>
-          </div>
-        </div>
-        <!-- Add more book recommendations -->
-      </section>
+        <hr style="width: 50%; margin: 40px auto"/>
   
-      <section id="music">
-        <h2>Music Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://images.genius.com/cca808e128eef7b9022ceacba0f0fccb.599x505x1.jpg" alt="Album Cover">
-          <div class="details">
-            <h3>Adele - 21</h3>
-            <p>The second studio album by English singer-songwriter Adele. The album's music is characterized by themes of heartbreak and relationships.</p>
-          </div>
-        </div>
-        <!-- Add more music recommendations -->
-      </section>
+        <section id="books" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Books Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://retrospectmagazinehca.files.wordpress.com/2022/01/book-thief.jpeg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Book Thief by Markus Zusak</h2>
+                <p>
+                  This historical novel tells the story of a young girl who steals books in Nazi Germany. It's a beautiful and heartbreaking story about the power of words and the importance of hope.
+                </p>
+                <a href="https://www.amazon.com/Book-Thief-Markus-Zusak/dp/0375842209" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Falannawhy.substack.com%2Fapi%2Fv1%2Fpost_preview%2F41929096%2Ftwitter.jpg%3Fversion%3D4" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>A Little Life by Hanya Yanagihara</h2>
+                <p>
+                  This novel tells the story of four friends who move to New York City after college. It's a long and difficult read, but it's ultimately a powerful and moving story about friendship, love, and loss.
+                </p>
+                <a href="https://www.goodreads.com/book/show/22822858-a-little-life" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://rinoanichole.com/wp-content/uploads/2020/01/IMG_4149-925x540.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Perks of Being a Wallflower by Stephen Chbosky</h2>
+                <p>
+                  This coming-of-age novel tells the story of a shy freshman who befriends two seniors. It's a beautiful and poignant story about friendship, love, and self-discovery. 
+                </p>
+                <a href="https://www.amazon.com/Perks-Being-Wallflower-Stephen-Chbosky/dp/0671027344" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
   
-      <section id="activities">
-        <h2>Activities Recommendations</h2>
-        <div class="activity">
-          <h3>Journaling</h3>
-          <p>Take some time to journal your thoughts and feelings. Writing can be a therapeutic way to express yourself and process your emotions.</p>
-        </div>
-        <!-- Add more activity recommendations -->
-      </section>
+    <hr style="width: 50%; margin: 40px auto"/>
+        
+    <section id="music" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Music Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://i.ytimg.com/vi/ttEMYvpoR-k/maxresdefault.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Hallelujah by Leonard Cohen</h2>
+                <p>
+                  This song is a beautiful and moving exploration of love, loss, and faith. It's been covered by many artists, but Cohen's original version is the most powerful.</p>
+                <a href="https://open.spotify.com/track/3uzYzmLLLayS9l3m0obKPF?si=40a23b27e0444bec" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://i.ytimg.com/vi/VVqXLXMch9g/maxresdefault.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Tears in Heaven by Eric Clapton</h2>
+                <p>
+                  This song was written by Clapton after the death of his young son. It's a heartbreaking and beautiful song about grief and loss.
+                </p>
+                <a href="https://open.spotify.com/track/1kgdslQYmeTR4thk9whoRw?si=f9d21d1f48c24621" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/771580/capsule_616x353.jpg?t=1707389731" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Mad World by Gary Jules</h2>
+                <p>
+                  This song was originally written by Tears for Fears, but Jules' version is a haunting and beautiful exploration of sadness and despair.
+                </p>
+                <a href="https://open.spotify.com/intl-de/track/3JOVTQ5h8HGFnDdp4VT3MP" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
     </div>
   </div>
-  

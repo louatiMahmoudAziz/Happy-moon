@@ -63,6 +63,7 @@ h1 {
 .mood-box:hover {
   transform: translateY(-5px); /* Move box upwards on hover */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+  cursor: pointer;
 }
 
 /* Style for the exit button */

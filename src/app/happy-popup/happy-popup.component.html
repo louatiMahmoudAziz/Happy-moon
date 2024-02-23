@@ -1,58 +1,207 @@
-<div class="happy-popup">
-  <button class="exit-button" (click)="onClosePopup()"><a href="#movies">X</a></button>
-  <nav>
-    <h1>Happy Moon</h1>
-    <ul>
-      <li><a href="#movies">Movies</a></li>
-      <li><a href="#books">Books</a></li>
-      <li><a href="#music">Music</a></li>
-      <li><a href="#activities">Activities</a></li>
-    </ul>
-  </nav>
-  <div class="recommendations">
-    <section id="movies">
-      <h2>Movies Recommendations</h2>
-      <div class="recommendation">
-        <img src="https://fr.web.img6.acsta.net/pictures/20/10/02/12/21/3764004.png" alt="Movie Poster">
-        <div class="details">
-          <h3>Star Wars: The Rise of Skywalker</h3>
-          <p>An epic space opera film directed by J.J. Abrams. The surviving members of the resistance face the First Order once again.</p>
-        </div>
+<!-- energetic-popup.component.html -->
+<div class="backgroundImage">
+  <div class="energetic-popup">
+      <nav class="navMenu">
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Books</a>
+        <a href="#">Music</a>
+      </nav>
+      <div class="recommendations">
+        <section id="movies" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Movie Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://prdaficalmjediwestussa.blob.core.windows.net/images/2022/05/AFIMC_SINGIN_4.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Singin' in the Rain (1952)</h2>
+                <p>
+                  This classic musical tells the story of the transition from silent films to talkies in Hollywood. It's a joyous and upbeat film with some of the most iconic musical numbers ever made.
+                </p>
+                <a href="https://www.rarecollectiblestv.com/mgm-singin-in-the-rain-1952-one-sheet-on-linen-fine-very-fine-unframed-27-x-41.html" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://npr.brightspotcdn.com/dims4/default/20d7dc5/2147483647/strip/true/crop/1600x900+0+0/resize/880x495!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwuwm%2Ffiles%2F201807%2Famelie-recommendation-videoSixteenByNineJumbo1600_0.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Amélie (2001)</h2>
+                <p>
+                  This French film tells the story of a shy waitress who decides to secretly improve the lives of those around her. It's a heartwarming and whimsical film with a beautiful visual style.
+                </p>
+                <a href="https://www.imdb.com/title/tt0211915/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A7B19244B523FD32DF653A7D8A2F64C0419B9D1A3B5F5D70EBBC0391F75E7983/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Princess Bride (1987)</h2>
+                <p>
+                  This fantasy comedy tells the story of a young woman who is kidnapped by a pirate and rescued by her true love. It's a fun and charming film with memorable characters and quotable lines.
+                </p>
+                <a href="https://www.imdb.com/title/tt0093779/" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+  
+        <hr style="width: 50%; margin: 40px auto"/>
+  
+        <section id="books" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Books Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://wordynerdbird.files.wordpress.com/2019/05/47e3a22e-39df-441d-8e9a-d845f69bb2df.jpeg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Anne of Green Gables by L.M. Montgomery</h2>
+                <p>
+                  This classic children's novel tells the story of an orphan girl who is sent to live with an elderly couple on Prince Edward Island. It's a heartwarming and charming story about friendship, family, and finding your place in the world.
+                </p>
+                <a href="https://www.amazon.com/Anne-Green-Gables-Complete-8-Book/dp/0553609416" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://i.ebayimg.com/images/g/wc4AAOSw9ARh3eG9/s-l1200.webp" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>The Rosie Project by Graeme Simsion</h2>
+                <p>
+                  This heartwarming and humorous novel follows the story of Don Tillman, a brilliant but socially awkward professor who creates a scientific survey to find the perfect wife. 
+                </p>
+                <a href="https://www.amazon.com/Rosie-Project-Novel-Graeme-Simsion/dp/1476729093" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://bookclubchat.com/wp-content/uploads/2018/10/Where-The-Crawdads-Sing-Review-Book-Club-Chat.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Where the Crawdads Sing by Delia Owens</h2>
+                <p>
+                  Set in the marshes of North Carolina, this novel is both a mystery and a celebration of nature. It follows the life of Kya Clark, the "Marsh Girl," who grows up isolated from society. The story alternates between Kya's coming-of-age tale and a murder investigation. 
+                </p>
+                <a href="https://www.amazon.com/Where-Crawdads-Sing-Delia-Owens/dp/0735219095" class="read-more">
+                  Read more <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+  
+    <hr style="width: 50%; margin: 40px auto"/>
+        
+    <section id="music" class="articles">
+          <h2 style="padding-top: 150px;  font-size: 4vmin;
+          font-weight: 900;">Music Recommendations</h2>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://grantland.com/wp-content/uploads/2014/04/hp_columbia_pharrellhappy_655.jpg?w=655" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Happy by Pharrell Williams</h2>
+                <p>
+                  This infectious pop song is guaranteed to put a smile on your face and get your feet moving.</p>
+                <a href="https://open.spotify.com/track/60nZcImufyMA1MKQY3dcCH?si=096af4e0909a4f9a" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://i.ytimg.com/vi/1k8craCGpgs/maxresdefault.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Don't Stop Believin' by Journey</h2>
+                <p>
+                  This classic rock anthem is a favorite for its inspiring lyrics and soaring vocals.
+                </p>
+                <a href="https://open.spotify.com/track/77NNZQSqzLNqh2A9JhLRkg?si=2680fa1249d4431e" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article>
+        
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://img.youtube.com/vi/s7dTBoW5H9k/hqdefault.jpg" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>Mr. Blue Sky by Electric Light Orchestra</h2>
+                <p>
+                  This upbeat and optimistic song is perfect for a sunny day or a mood boost.
+                </p>
+                <a href="https://open.spotify.com/track/2RlgNHKcydI9sayD2Df2xp?si=2848a8d5ddd0449b" class="read-more">
+                  Listen Here <span class="sr-only">about this is some title</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
       </div>
-      <!-- Add more movie recommendations -->
-    </section>
-
-    <section id="books">
-      <h2>Books Recommendations</h2>
-      <div class="recommendation">
-        <img src="https://images.epagine.fr/668/9780007155668_1_75.jpg" alt="Book Cover">
-        <div class="details">
-          <h3>The Alchemist</h3>
-          <p>A novel by Brazilian author Paulo Coelho that follows the journey of an Andalusian shepherd boy named Santiago.</p>
-        </div>
-      </div>
-      <!-- Add more book recommendations -->
-    </section>
-
-    <section id="music">
-      <h2>Music Recommendations</h2>
-      <div class="recommendation">
-        <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" alt="Album Cover">
-        <div class="details">
-          <h3>Abbey Road by The Beatles</h3>
-          <p>The eleventh studio album by the English rock band The Beatles, released in 1969.</p>
-        </div>
-      </div>
-      <!-- Add more music recommendations -->
-    </section>
-
-    <section id="activities">
-      <h2>Activities Recommendations</h2>
-      <div class="activity">
-        <h3>Outdoor Picnic</h3>
-        <p>Enjoy a picnic in the park with your loved ones. Pack some delicious snacks, sandwiches, and drinks.</p>
-      </div>
-      <!-- Add more activity recommendations -->
-    </section>
+    </div>
   </div>
-</div>
