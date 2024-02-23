@@ -2,81 +2,93 @@
 
 /* Style for the container */
 .container {
-    text-align: center;
-    margin-top: 50px;
-    font-family: cursive; /* Set font family to fantasy */
-  }
-  
-  /* Style for the title "Welcome to Happy Moon!" */
-  h1 {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Style for the message "How are you feeling today?" */
-  .message {
-    font-size: 20px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  /* Style for the mood boxes container */
-  .mood-boxes {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  /* Style for each mood box */
-  .mood-box {
-    width: 150px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Style for the mood icon */
-  .mood-icon {
-    width: 60px;
-    height: 60px;
-    margin: 0 auto;
-  }
-  
-  /* Style for the mood name */
-  .mood-name {
-    font-weight: bold;
-    margin-top: 10px;
-    color: #333;
-  }
-  
-  /* Style for the mood message */
-  .mood-message {
-    font-size: 14px;
-    color: #666;
-  }
-  
-  /* Style for the mood link */
-  .mood-link {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit the color from the parent */
-  }
+  text-align: center;
+  margin-top: 50px;
+  font-family: cursive;
+}
 
-  .exit-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    color: #333;
-  }
-  
-  .mood-popup {
-    position: relative;
-  }
-  
-  
+/* Style for the title "Welcome to Happy Moon!" */
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the message "How are you feeling today?" */
+.message {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Style for the mood boxes container */
+.mood-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Style for each mood box */
+.mood-box {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Style for the mood icon */
+.mood-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+/* Style for the mood name */
+.mood-name {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Style for the mood message */
+.mood-message {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Hover effect for mood boxes */
+.mood-box:hover {
+  transform: translateY(-5px); /* Move box upwards on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+}
+
+/* Style for the exit button */
+.exit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Style for the mood pop-up */
+.mood-popup {
+  position: relative;
+}
+
+/* Style for the welcome message */
+.welcome-message {
+  margin-top: 50px;
+}
+
+/* Style for the chatbot icon */
+.chatbot-icon {
+  width: 100px;
+  height: 100px;
+}

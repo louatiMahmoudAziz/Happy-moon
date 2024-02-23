@@ -16,7 +16,8 @@
     <button class="exit-button" (click)="closeMoodPopup()">X</button>
     <p>This is the pop-up content for {{ selectedMood }}.</p>
   </div>
-  
+  <app-happy-popup *ngIf="selectedMood === 'Happy' && moodPopupVisible" (closePopup)="onHappyPopupClose()"></app-happy-popup>
+
   <!-- Introduction section -->
   <div class="welcome-message">
     <img src="https://t4.ftcdn.net/jpg/04/46/38/69/360_F_446386956_DiOrdcxDFWKWFuzVUCugstxz0zOGMHnA.jpg" alt="Happy Moon" class="chatbot-icon">

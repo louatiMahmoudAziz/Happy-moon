@@ -9,7 +9,7 @@ import { SadPopupComponent } from './sad-popup/sad-popup.component';
 import { CalmPopupComponent } from './calm-popup/calm-popup.component';
 import { EnergeticPopupComponent } from './energetic-popup/energetic-popup.component';
 import { ConfusedPopupComponent } from './confused-popup/confused-popup.component';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,8 @@ import { ConfusedPopupComponent } from './confused-popup/confused-popup.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [
     provideClientHydration()
