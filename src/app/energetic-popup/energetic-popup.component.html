@@ -1,61 +1,205 @@
 <!-- energetic-popup.component.html -->
-
+<div class="backgroundImage">
 <div class="energetic-popup">
-    <nav>
-      <button class="exit-button" ><a href="#movies">X</a></button>
-      <h1>Energetic Vibes</h1>
-      <ul>
-        <li><a href="#movies">Movies</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#activities">Activities</a></li>
-      </ul>
+    <nav class="navMenu">
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Books</a>
+      <a href="#">Music</a>
     </nav>
     <div class="recommendations">
-      <section id="movies">
-        <h2>Movies Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Movie Poster">
-          <div class="details">
-            <h3>The Avengers</h3>
-            <p>A superhero film based on the Marvel Comics superhero team, directed by Joss Whedon.</p>
+      <section id="movies" class="articles">
+        <h2 style="padding-top: 150px">Movie Recommendations</h2>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://streamcoimg-a.akamaihd.net/000/958/725/958725-Banner-L2-847d2beb1082f33dab482bdae9b5b268.jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Mad Max: Fury Road (2015)</h2>
+              <p>
+                A high-octane chase film set in a post-apocalyptic wasteland, with stunning visuals and relentless action sequences.
+              </p>
+              <a href="https://www.imdb.com/title/tt1392190/" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- Add more movie recommendations -->
-      </section>
-  
-      <section id="books">
-        <h2>Books Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631519495i/6289283.jpg" alt="Book Cover">
-          <div class="details">
-            <h3>Born to Run</h3>
-            <p>A book by Christopher McDougall that explores the secrets of the human desire to run long distances.</p>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://facts.net/wp-content/uploads/2023/06/38-facts-about-the-movie-the-raid-2-1687672109.jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>The Raid 2 (2014)</h2>
+              <p>
+                An Indonesian martial arts film with incredible fight choreography and brutal action.
+              </p>
+              <a href="https://www.imdb.com/title/tt2265171/" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- Add more book recommendations -->
-      </section>
-  
-      <section id="music">
-        <h2>Music Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFnXhvcTh-noPeZfGVJyT6zE7xDcKGkk5FvA&usqp=CAU" alt="Album Cover">
-          <div class="details">
-            <h3>Beyoncé - Homecoming</h3>
-            <p>A live album by American singer Beyoncé, accompanied by a concert film of the same name. It was released on April 17, 2019.</p>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://img4.hulu.com/user/v3/artwork/f752afca-8e5c-4bbb-a605-20a6359dfe65?base_image_bucket_name=image_manager&base_image=8f5239d8-ea73-4c6d-9460-07f2542aa595&size=1200x630&format=jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>21 Jump Street (2012)</h2>
+              <p>
+                A hilarious action comedy about undercover cops in high school and much more.
+              </p>
+              <a href="https://www.imdb.com/title/tt1232829/" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- Add more music recommendations -->
+        </article>
       </section>
-  
-      <section id="activities">
-        <h2>Activities Recommendations</h2>
-        <div class="activity">
-          <h3>Dance Party</h3>
-          <p>Host a dance party with your friends! Create a playlist of upbeat songs and dance the night away.</p>
-        </div>
-        <!-- Add more activity recommendations -->
+
+      <hr style="width: 50%;"/>
+
+      <section id="books" class="articles">
+        <h2 style="padding-top: 150px">Books Recommendations</h2>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://www.themarysue.com/wp-content/uploads/2017/05/themartian.jpg?fit=640%2C380" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>The Martian by Andy Weir</h2>
+              <p>
+                An astronaut is stranded on Mars and must use his ingenuity to survive.
+              </p>
+              <a href="https://www.amazon.com/Martian-Andy-Weir/dp/0553418025" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1483581415i/21627431._SX540_.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>The Lies of Locke Lamora by Scott Lynch</h2>
+              <p>
+                A con artist and his team pull off elaborate scams in a fantastical world.
+              </p>
+              <a href="https://www.amazon.com/Lies-Locke-Lamora-Gentleman-Bastards/dp/055358894X" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://prh.imgix.net/articles/thelastdeviltodie-solusedm-3.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>The Thursday Murder Club by Richard Osman</h2>
+              <p>
+                A group of elderly amateur detectives investigate a murder.
+              </p>
+              <a href="https://www.penguin.com.au/books/the-thursday-murder-club-9780241988268" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+  <hr style="width: 50%;"/>
+      
+  <section id="music" class="articles">
+        <h2 style="padding-top: 150px">Music Recommendations</h2>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://i.pinimg.com/originals/4f/11/15/4f1115c93344f8bda69ee73117d52366.png" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>AC/DC - Thunderstruck (1990)</h2>
+              <p>
+                A hard rock classic with electrifying guitars and energetic vocals.
+              </p>
+              <a href="https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj" class="read-more">
+                Listen Here <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://d1e00ek4ebabms.cloudfront.net/production/c4b28129-11a9-4bad-9cd4-b005e84cfec1.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>The Ramones - Blitzkrieg Bop (1976)</h2>
+              <p>
+                A fast-paced punk rock anthem with catchy lyrics and simple yet powerful chords.
+              </p>
+              <a href="https://open.spotify.com/track/22ea9e9wspXjaR7qfqfsdS?si=239212121afb4122" class="read-more">
+                Listen Here <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://townsquare.media/site/366/files/2020/11/Screen-Shot-2020-11-16-at-4.28.55-PM-copy.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>System of a Down - Chop Suey! (2002)</h2>
+              <p>
+                A unique metal song with complex rhythms, catchy melodies, and Serj Tankian's distinctive vocals.
+              </p>
+              <a href="https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN?si=e84175cddbbf4a58" class="read-more">
+                Listen Here <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
       </section>
     </div>
   </div>
-  
+</div>
