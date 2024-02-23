@@ -1,60 +1,58 @@
-<!-- happy-popup.component.html -->
-
 <div class="happy-popup">
-    <nav>
-      <h1>Happy Moon</h1>
-      <ul>
-        <li><a href="#movies">Movies</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#activities">Activities</a></li>
-      </ul>
-    </nav>
-    <div class="recommendations">
-      <section id="movies">
-        <h2>Movies Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://via.placeholder.com/150" alt="Movie Poster">
-          <div class="details">
-            <h3>Star Wars: The Rise of Skywalker</h3>
-            <p>An epic space opera film directed by J.J. Abrams. The surviving members of the resistance face the First Order once again.</p>
-          </div>
+  <button class="exit-button" (click)="onClosePopup()"><a href="#movies">X</a></button>
+  <nav>
+    <h1>Happy Moon</h1>
+    <ul>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#activities">Activities</a></li>
+    </ul>
+  </nav>
+  <div class="recommendations">
+    <section id="movies">
+      <h2>Movies Recommendations</h2>
+      <div class="recommendation">
+        <img src="https://fr.web.img6.acsta.net/pictures/20/10/02/12/21/3764004.png" alt="Movie Poster">
+        <div class="details">
+          <h3>Star Wars: The Rise of Skywalker</h3>
+          <p>An epic space opera film directed by J.J. Abrams. The surviving members of the resistance face the First Order once again.</p>
         </div>
-        <!-- Add more movie recommendations -->
-      </section>
-  
-      <section id="books">
-        <h2>Books Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://via.placeholder.com/150" alt="Book Cover">
-          <div class="details">
-            <h3>The Alchemist</h3>
-            <p>A novel by Brazilian author Paulo Coelho that follows the journey of an Andalusian shepherd boy named Santiago.</p>
-          </div>
+      </div>
+      <!-- Add more movie recommendations -->
+    </section>
+
+    <section id="books">
+      <h2>Books Recommendations</h2>
+      <div class="recommendation">
+        <img src="https://images.epagine.fr/668/9780007155668_1_75.jpg" alt="Book Cover">
+        <div class="details">
+          <h3>The Alchemist</h3>
+          <p>A novel by Brazilian author Paulo Coelho that follows the journey of an Andalusian shepherd boy named Santiago.</p>
         </div>
-        <!-- Add more book recommendations -->
-      </section>
-  
-      <section id="music">
-        <h2>Music Recommendations</h2>
-        <div class="recommendation">
-          <img src="https://via.placeholder.com/150" alt="Album Cover">
-          <div class="details">
-            <h3>Abbey Road by The Beatles</h3>
-            <p>The eleventh studio album by the English rock band The Beatles, released in 1969.</p>
-          </div>
+      </div>
+      <!-- Add more book recommendations -->
+    </section>
+
+    <section id="music">
+      <h2>Music Recommendations</h2>
+      <div class="recommendation">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" alt="Album Cover">
+        <div class="details">
+          <h3>Abbey Road by The Beatles</h3>
+          <p>The eleventh studio album by the English rock band The Beatles, released in 1969.</p>
         </div>
-        <!-- Add more music recommendations -->
-      </section>
-  
-      <section id="activities">
-        <h2>Activities Recommendations</h2>
-        <div class="activity">
-          <h3>Outdoor Picnic</h3>
-          <p>Enjoy a picnic in the park with your loved ones. Pack some delicious snacks, sandwiches, and drinks.</p>
-        </div>
-        <!-- Add more activity recommendations -->
-      </section>
-    </div>
+      </div>
+      <!-- Add more music recommendations -->
+    </section>
+
+    <section id="activities">
+      <h2>Activities Recommendations</h2>
+      <div class="activity">
+        <h3>Outdoor Picnic</h3>
+        <p>Enjoy a picnic in the park with your loved ones. Pack some delicious snacks, sandwiches, and drinks.</p>
+      </div>
+      <!-- Add more activity recommendations -->
+    </section>
   </div>
-  
+</div>

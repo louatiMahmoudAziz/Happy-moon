@@ -1,87 +1,98 @@
-/* calm-popup.component.css */
-
 .calm-popup {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  nav {
-    background-color: #f0f0f0;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav h1 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #007bff;
-  }
-  
-  .recommendations {
-    padding-top: 20px;
-  }
-  
-  section {
-    margin-bottom: 30px;
-  }
-  
-  h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .recommendation {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .recommendation img {
-    width: 150px;
-    height: auto;
-    margin-right: 20px;
-  }
-  
-  .recommendation .details {
-    flex-grow: 1;
-  }
-  
-  .recommendation h3 {
-    margin-top: 0;
-  }
-  
-  .activity h3 {
-    margin-top: 0;
-    font-size: 18px;
-  }
-  
-  .activity p {
-    margin-top: 5px;
-    font-size: 14px;
-  }
-  
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure positioned ancestor for absolute positioning */
+}
+
+.exit-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #333; /* Adjust color as needed */
+  z-index: 1; /* Ensure exit button is above other content */
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.recommendations {
+  padding-top: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recommendation {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.recommendation img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.recommendation .details {
+  flex-grow: 1;
+}
+
+.recommendation h3 {
+  margin-top: 0;
+}
+
+.activity h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.activity p {
+  margin-top: 5px;
+  font-size: 14px;
+}

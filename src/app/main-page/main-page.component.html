@@ -1,26 +1,28 @@
 <div class="container">
-    <h1>Welcome to Happy Moon!</h1>
-    <div class="message">
-      <p>How are you feeling today?</p>
+  <h1>Welcome to Happy Moon!</h1>
+  <div class="message">
+    <p>How are you feeling today?</p>
+  </div>
+  <div class="mood-boxes">
+    <div class="mood-box" *ngFor="let mood of moods" (click)="navigateToPopup(mood.name)">
+      <img [src]="mood.icon" alt="{{ mood.name }}" class="mood-icon">
+      <p class="mood-name"><strong>{{ mood.name }}</strong></p>
+      <p class="mood-message">{{ mood.message }}</p>
     </div>
-    <div class="mood-boxes">
-      <div class="mood-box" *ngFor="let mood of moods">
-        <a [routerLink]="['/mood', mood.name]" class="mood-link">
-          <img [src]="mood.icon" alt="{{ mood.name }}" class="mood-icon">
-          <p class="mood-name"><strong>{{ mood.name }}</strong></p>
-          <p class="mood-message">{{ mood.message }}</p>
-        </a>
-      </div>
-    </div>
-    <!-- Inside the introduction section -->
- <div class="welcome-message">
+  </div>
+  <div *ngIf="selectedMood" class="selected-mood">Selected Mood: {{ selectedMood }}</div>
+  <!-- Mood pop-up -->
+  <div #moodPopup class="mood-popup" *ngIf="moodPopupVisible">
+    <button class="exit-button" (click)="closeMoodPopup()">X</button>
+    <p>This is the pop-up content for {{ selectedMood }}.</p>
+  </div>
+  
+  <!-- Introduction section -->
+  <div class="welcome-message">
     <img src="https://t4.ftcdn.net/jpg/04/46/38/69/360_F_446386956_DiOrdcxDFWKWFuzVUCugstxz0zOGMHnA.jpg" alt="Happy Moon" class="chatbot-icon">
     <p>Hi there! I'm Happy Moon, your friendly chatbot companion! 🌙✨</p>
     <p>Are you ready to embark on an exciting journey together? You can talk to me about anything you'd like!</p>
     <p>Just click on my icon below on left to start chatting with me. Let's have some fun and explore this amazing world together!</p>
     <!-- Add the chatbot icon here -->
   </div>
-  
 </div>
-  
-  

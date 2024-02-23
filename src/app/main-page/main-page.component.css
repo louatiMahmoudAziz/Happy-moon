@@ -63,4 +63,20 @@
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit the color from the parent */
   }
+
+  .exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .mood-popup {
+    position: relative;
+  }
+  
   
